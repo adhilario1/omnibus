@@ -7,8 +7,10 @@ export const metadata: Metadata = {
 };
 
 const PortfolioLayout = ({
+  params,
   children,
 }: Readonly<{
+  params: Promise<{ breakpoint: number }>, 
   children: React.ReactNode;
 }>) => {
     return(

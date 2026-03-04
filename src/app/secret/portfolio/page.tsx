@@ -7,8 +7,7 @@ const Portfolio = () => {
     return (
         <div className="portfolio container">
             <Header />
-            <div>
-                <h1>Adam Hilario</h1>
+            <div className="flex">
                 <p>
                     If you have found yourself on this page, you are either a talent recruiter who has received the link to this page directly, or you are a passerby who is dreadfully lost. 
                     <br/> 
