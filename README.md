@@ -12,6 +12,14 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+#build docker image
+docker build -t omnibus-app .
+
+#run from docker image
+docker run -p 3000:3000 omnibus-app
+
+docker-compuse up --build
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
