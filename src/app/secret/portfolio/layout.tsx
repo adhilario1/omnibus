@@ -13,8 +13,7 @@ const PortfolioLayout = ({
 }>) => {
     return(
         <html lang="en">
-            <body
-            >
+            <body>
                 {children}
             </body>
         </html>
